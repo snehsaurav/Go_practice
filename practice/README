@@ -1,0 +1,33 @@
+API is created which perform certain tasks :
+
+   - Create a story
+   - Fetch the story details
+   - Fetch the story details with paragraphs and sentences
+
+
+Tech stack and tools used :
+
+    - Golang
+    - PostgresQL
+    - Pgadmin
+    - Postman
+
+Package  :
+
+    - go get github.com/lib/pq
+
+Databse :
+
+    - User should have postgresql installed
+    - User Should import the attached "sql" file before making requests
+
+
+Postman Collection Link :
+
+    - https://www.getpostman.com/collections/c7227ccbd406f0bd0172
+
+
+How to run the server :
+
+    - go run story.go    
+
